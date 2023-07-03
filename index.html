@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styled.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Clone1</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbarscroll">
+        <div class="container-fluid">
+          <a class="navbar-brand col-6 col-md-3 col-xl-4  d-block" href="#">TestLandingPage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHOME">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyFeatured">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#scrollspyAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyOurTeam">Our Team</a></li>            
+                    <li class="nav-item dropend">
+                      <a class="dropdown-toggle dropdown-item" href="#">More Links</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#scrollspyAbout">Test1</a></li>
+                        <li><a class="dropdown-item" href="#">Test2</a></li>            
+                        <li><a class="dropdown-item" href="#">Test3</a></li>         
+                     
+                      </ul>
+                   </li>         
+                   
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyTestimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#scrollspyBlog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <!--  -->
+      <!-- Content -->
+<div data-bs-spy="scroll" data-bs-target="navbarscroll" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <div class="container-first">
+        <div class="home-content" id="scrollspyHOME">
+            <h1>
+                Make Your Business More Profitable
+            </h1>
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.
+            </p>
+           <button type="button">Get Started</button>
+
+        </div> 
+        <div class="img">
+            <img class="img-fluid" src="./img/1.svg" width="690px">
+        </div>
+  
+      </div>
+
+      <div class="container-second"id="scrollspyFeatured" >
+        <div class="feature-content" data-aos="fade-up" >
+          <div class="row mb-5 justify-content-center text-center aos-init aos-animate" >
+            <h1>Imagine Features</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-arrow-repeat"></i>   
+                </div>                       
+                <h3>Marketing Consulting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div>
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-shop"></i>   
+                </div>  
+                <h3>Market Analysis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div> 
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-basket2-fill"></i> 
+                </div>  
+                <h3>Easy Purchase</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div>              
+
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-arrow-counterclockwise"></i>  
+                </div>                       
+                <h3>Free Updates</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div>
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-emoji-smile"></i>
+                </div>  
+                <h3>100% Satistified</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div> 
+              <div class="box1" data-aos="fade-up">
+                <div class="icon">
+                  <i class="bi bi-plug-fill"></i> 
+                </div>  
+                <h3>Easy Plugin</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                <p><a href="/">Learn More</a></p>
+              </div>              
+            </div>     
+
+          </div>
+        </div>
+      </div>
+
+      <div class="third-container">
+        <div class="img-third " data-aos="fade-right" >
+          <img class="img-fluid" src="img/2.svg" alt="a">
+        </div>
+        <div class="communicate">
+          <h2>
+            Communicate and gather feedback
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.
+          </p>
+
+          <div class="col-sm-10 mb-3 mb-sm-0" data-aos="fade-left">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <div class="card-title">
+                  <img src="img/Bu.jpg" class="rounded-circle" alt="bu" width="50px" height="50px">
+                  <div class="text-title">
+                    <h5>Burapha.S</h5>              
+                    <P>SS</P>
+                  </div>
+                  
+                </div>
+                </div>
+                
+                
+                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="third-container">
+        
+        <div class="communicate2">
+          <h2>
+            Communicate and gather feedback
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.
+          </p>
+
+          <div class="col-sm-10 mb-3 mb-sm-0" data-aos="fade-right">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <div class="card-title">
+                  <img src="img/Bu.jpg" class="rounded-circle" alt="bu" width="50px" height="50px">
+                  <div class="text-title">
+                    <h5>Burapha.S</h5>              
+                    <P>SS</P>
+                  </div>
+                  
+                </div>
+                </div>
+                
+                
+                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="img-third " data-aos="fade-left" >
+          <img class="img-fluid" src="img/3.svg" alt="a">
+        </div>
+      </div>
+
+      <div class="third-container">
+        <div class="img-third " data-aos="fade-right" >
+          <img class="img-fluid" src="img/2.svg" alt="a">
+        </div>
+        <div class="communicate">
+          <h2>
+            Communicate and gather feedback
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.
+          </p>
+
+          <div class="col-sm-10 mb-3 mb-sm-0" data-aos="fade-left">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <div class="card-title">
+                  <img src="img/Bu.jpg" class="rounded-circle" alt="bu" width="50px" height="50px">
+                  <div class="text-title">
+                    <h5>Burapha.S</h5>              
+                    <P>SS</P>
+                  </div>
+                  
+                </div>
+                </div>
+                
+                
+                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="third-container">
+        
+        <div class="communicate2">
+          <h2>
+            Communicate and gather feedback
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.
+          </p>
+
+          <div class="col-sm-10 mb-3 mb-sm-0" data-aos="fade-right">
+            <div class="card">
+              <div class="card-body">
+                <div class="title">
+                  <div class="card-title">
+                  <img src="img/Bu.jpg" class="rounded-circle" alt="bu" width="50px" height="50px">
+                  <div class="text-title">
+                    <h5>Burapha.S</h5>              
+                    <P>SS</P>
+                  </div>
+                  
+                </div>
+                </div>
+                
+                
+                <p class="card-text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="img-third " data-aos="fade-left" >
+          <img class="img-fluid" src="img/3.svg" alt="a">
+        </div>
+      </div>
+        
+      <div class="fourth-container" id="scrollspyAbout">
+        <h1>
+          About Us
+        </h1>
+        <div class="container">
+          <img class="img-fluid"  src="img/4.svg" alt="" width="540px" height="439.672px" data-aos="fade-right">
+            <div class="boxCon">
+              <h2>
+                Our Mission
+              </h2>
+              <p>
+                Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.
+              </p>
+              
+                <ul>
+                  <li>
+                    Laborum enim quasi at modi
+                  </li>
+                  <li>
+                    Ad at tempore
+                  </li>
+                  <li>
+                    Labore quaerat esse
+                  </li>
+                </ul>
+
+              <button type="button">Learn More</button>
+              
+            </div>
+        </div>
+      </div>
+
+      <div class="our-team" id="scrollspyOurTeam" data-aos="fade-up">
+        <div class="container">
+          <div class="text">
+            <h1>
+              Our Team
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.
+            </p>
+          </div>
+          <div class="con">
+            <div class="row" >
+              <div class="box" data-aos="fade-up" data-aos-duration="500">
+                <img class="img-fluid" src="img/Bu.jpg" alt="" width="350px" height="350px" data-aos="fade-up">
+                <h4>
+                  Burapha.S
+                </h4>
+                <p>
+                  PRESIDENT
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+                </p>
+              </div>
+
+              <div class="box" data-aos="fade-up">
+                <img src="img/Bu2.jpg" alt="" width="326px" height="326px" data-aos="fade-up" data-aos-duration="1000">
+                <h4>
+                  Burapha.S
+                </h4>
+                <p>
+                  MARKETING
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+                </p>
+              </div>
+
+              <div class="box" data-aos="fade-up">
+                <img class="img-fluid" src="img/Bu.jpg" alt="" width="350px" height="350px" data-aos="fade-up" data-aos-duration="1500">
+                <h4>
+                  Burapha.S
+                </h4>
+                <p>
+                  MARKETING
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+                </p>
+              </div>
+
+            <div class="box" data-aos="fade-up">
+              <img src="img/Bu2.jpg" alt="" width="326px" height="326px" data-aos="fade-up" data-aos-duration="500">
+              <h4>
+                Burapha.S
+              </h4>
+              <p>
+                FINANCING
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+              </p>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+              <img class="img-fluid" src="img/Bu.jpg" alt="" width="350px" height="350px" data-aos="fade-up" data-aos-duration="1000">
+              <h4>
+                Burapha.S
+              </h4>
+              <p>
+                FOUNDER
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+              </p>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+              <img src="img/Bu2.jpg" alt="" width="326px" height="326px" data-aos="fade-up" data-aos-duration="1500">
+              <h4>
+                Burapha.S
+              </h4>
+              <p>
+                MARKETING
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.
+              </p>
+            </div>
+        </div>
+      </div>
+          </div>
+        </div>
+        
+
+        <div class="testimonials" id="scrollspyTestimonials">
+          <div class="container">
+
+              <h1>Testimonials</h1>
+     
+            <div class="slider">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="img/Bu.jpg" alt="">
+                    <p>
+                      “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”
+                    </p>
+                    <h5>
+                      Burapha.S
+                    </h5>
+                </div>
+
+                <div class="item">
+                  <img src="img/Bu.jpg" alt="">
+                  <p>
+                    “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”
+                  </p>
+                  <h5>
+                    Burapha.S
+                  </h5>
+              </div>
+
+              <div class="item">
+                <img src="img/Bu.jpg" alt="">
+                <p>
+                  “Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”
+                </p>
+                <h5>
+                  Burapha.S
+                </h5>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog" id="scrollspyBlog">
+          <div class="title">
+            <h1>Blog Posts</h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="box">
+                <img src="img/img_1.jpg.webp" alt="" width="350px" height="210px">
+                <h2><a href="#">Make Your Business More Profitable</a></h2>
+  
+                <div class="p">
+                  <p>Burapha</p>
+                  <p>Jan 18, 2019</p>
+                  <p><a href="#">News</a></p>
+                </div>
+  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#">Continue Reading...</a></p>
+              </div>
+
+              <div class="box">
+                <img src="img/img_2.jpg.webp" alt="" width="350px" height="210px">
+                <h2><a href="#">Make Your Business More Profitable</a></h2>
+  
+                <div class="p">
+                  <p>Burapha</p>
+                  <p>Jan 18, 2019</p>
+                  <p><a href="#">News</a></p>
+                </div>
+  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#">Continue Reading...</a></p>
+              </div>
+
+              <div class="box">
+                <img src="img/img_3.jpg.webp" alt="" width="350px" height="210px">
+                <h2><a href="#">Make Your Business More Profitable</a></h2>
+  
+                <div class="p">
+                  <p>Burapha</p>
+                  <p>Jan 18, 2019</p>
+                  <p><a href="#">News</a></p>
+                </div>
+  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                <p><a href="#">Continue Reading...</a></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+  </div>
+
+      
+
+
+
+      <!--  -->
+
+
+      <footer>
+        <div class="footer">
+          <p>
+            Create By Burapha.S
+          </p>
+        </div>
+      </footer>
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="app.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>
